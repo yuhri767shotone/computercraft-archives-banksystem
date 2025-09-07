@@ -74,7 +74,7 @@ end
 function installATMTurtleWithAutoSetup()
     print("Installing Mermegold ATM Assistant ...")
     fs.delete("autosetup.lua")
-    shell.run("pastebin get 0dSekuU1 autosetup.lua") -- ATM Assistant autosetup
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/0dSekuU1 autosetup.lua") -- ATM Assistant autosetup
     print("Running autosetup...")
     sleep(1)
     shell.run("autosetup")
