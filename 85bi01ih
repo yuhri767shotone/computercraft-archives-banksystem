@@ -56,18 +56,18 @@ end
 function installStoreClerk()
     print("Installing Mermegold Store Clerk...")
     fs.delete("bankapi.lua")
-    shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
-    shell.run("pastebin get pgw11ZAq startup.lua") -- Store clerk
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/pgw11ZAq startup.lua") -- Store clerk
     quit()
 end
 
 function installATMTurtle()
     print("Installing Mermegold ATM Assistant ...")
     fs.delete("bankapi.lua")
-    shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
-    shell.run("pastebin get 32EJUy53 startup.lua") -- ATM Assistant
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/32EJUy53 startup.lua") -- ATM Assistant
     quit()
 end
 
@@ -84,25 +84,25 @@ end
 function installBankServer()
     print("Installing Mermegold Bank Server...")
     fs.delete("bankapi.lua")
-    shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
-    shell.run("pastebin get NFdQ6Epa startup.lua") -- Bank Server
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/NFdQ6Epa startup.lua") -- Bank Server
     quit()
 end
 
 function installAdminTerminal()
     print("Installing Mermegold Admin terminal...")
     fs.delete("bankapi.lua")
-    shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
-    shell.run("pastebin get eksCPqRa startup.lua") -- Admin Terminal
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/eksCPqRa startup.lua") -- Admin Terminal
     quit()
 end
 
 function installATMInterface()
     print("Installing Mermegold ATM terminal...")
     fs.delete("bankapi.lua")
-    shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
     shell.run("pastebin get cWMVXkrv startup.lua") -- ATN Terminal
     quit()
