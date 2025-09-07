@@ -104,7 +104,7 @@ function installATMInterface()
     fs.delete("bankapi.lua")
     shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
     fs.delete("startup.lua")
-    shell.run("pastebin get cWMVXkrv startup.lua") -- ATN Terminal
+    shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/cWMVXkrv startup.lua") -- ATN Terminal
     quit()
 end
 
