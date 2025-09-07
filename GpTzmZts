@@ -1,0 +1,9 @@
+-- Prevent phone startup from overriding connected startup
+
+if (pocket) then
+	print("Running mermeapp")
+	shell.execute("mermeapp.lua")
+else
+	print("Running normal startup")
+	shell.execute("startup.lua")
+end
