@@ -14,7 +14,7 @@ while (not diskdrive.isDiskPresent()) do
     os.pullEvent("disk")
 end
 fs.delete("disk/startup.lua")
-shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/85bi01ih startup.lua") -- archived. NOT ORGINAL. Last archive was on 9/6/2025
+shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/85bi01ih disk/startup.lua") -- archived. NOT ORGINAL. Last archive was on 9/6/2025
 diskdrive.setDiskLabel("Mermegold Installer Disk")
 print("Installer disk created")
 sleep(2)
