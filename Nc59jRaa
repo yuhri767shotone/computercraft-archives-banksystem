@@ -152,7 +152,7 @@ local localization = {
 		"und vereinbaren Sie einen Termin.",
 		"Das Konto wird gemeinsam",
 		"in der Bank eröffnet."
-		}
+		},
 		
 		check_balance = "Kontostandt",
 		perform_transaction = "Transaktion",
