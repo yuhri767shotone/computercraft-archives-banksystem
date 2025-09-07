@@ -250,9 +250,9 @@ place()
 
 print("Installing Mermegold ATM Assistant ...")
 fs.delete("bankapi.lua")
-shell.run("pastebin get wSKUaGG0 bankapi.lua") -- Bank API
+shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/wSKUaGG0 bankapi.lua") -- Bank API
 fs.delete("startup.lua")
-shell.run("pastebin get 32EJUy53 startup.lua") -- ATM Assistant
+shell.run("wget https://raw.githubusercontent.com/yuhri767shotone/computercraft-archives-banksystem/refs/heads/main/32EJUy53 startup.lua") -- ATM Assistant
 
 print("Dropping leftover items...")
 for i=1, 16 do
